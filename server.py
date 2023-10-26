@@ -1,6 +1,5 @@
 from fastapi import FastAPI
 app = FastAPI()
-from transformers import pipeline
 
 @app.get("/")
 def hello():
